@@ -15,3 +15,43 @@
     "i j c h h";
     align-items: start;
 }
+
+.div1 {
+     grid-area: a;
+}
+
+.div2 {
+     grid-area: b;
+}
+
+.div3 {
+     grid-area: c;
+ }
+
+.div4 { 
+    grid-area: d; 
+}
+
+.div5 { 
+    grid-area: e; 
+}
+
+.div6 { 
+    grid-area: f; 
+}
+
+.div7 { 
+    grid-area: g; 
+}
+
+.div8 { 
+    grid-area: h; 
+}
+
+.div9 { 
+    grid-area: i; 
+}
+
+.div10 { 
+    grid-area: j; 
+}
