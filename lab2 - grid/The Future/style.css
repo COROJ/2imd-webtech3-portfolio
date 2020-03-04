@@ -82,8 +82,16 @@
         grid-template-areas: 
         "a b"
         "c d"
-        "e f"
-        "g h"
+        "e h"
+        "g f"
         "i j";
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 
+        "a""b""c""d""e""h""g""f""i""j";
     }
 }
