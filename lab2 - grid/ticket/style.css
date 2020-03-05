@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    
 }
 
 .main {
@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 94px 400px 40px 40px;
+    text-transform: uppercase;
 }
 
 .text {
@@ -107,5 +108,24 @@ span {
 
     img {
         width: 175px;
+    }
+
+    .persons {
+        grid-column: 2/3;
+    }
+
+    .price {
+        grid-column: 3/4;
+    }
+
+    .frustrated {
+        display: inline;
+        grid-row: 3/4;
+        grid-column: 1/4;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: none;
     }
 }
