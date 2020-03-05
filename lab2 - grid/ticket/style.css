@@ -46,3 +46,20 @@ img {
     width: 215px;
     
 }
+
+.frustrated {
+    display: none;
+}
+
+.date, .persons,
+.price {
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    grid-column: 1/3;
+}
