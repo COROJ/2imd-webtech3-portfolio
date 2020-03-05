@@ -32,4 +32,17 @@ h2 {
 
 h1 {
     margin: 0;
+    letter-spacing: 6px;
+}
+
+.img {
+    grid-column: 1/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 215px;
+    
 }
