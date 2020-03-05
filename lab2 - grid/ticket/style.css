@@ -63,3 +63,25 @@ img {
 .price {
     grid-column: 1/3;
 }
+
+span {
+    font-weight: 500;
+}
+
+@media (min-width: 900px){
+    .main {
+        width: 900px;
+        grid-template-columns: 200px 200px 200px 250px;
+        grid-template-rows: 130px 70px 50px;
+        padding: 15px;
+    }
+
+    .text {
+        grid-column: 1/4;
+        border: 2px solid black;
+        color:black;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+}
